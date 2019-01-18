@@ -1,0 +1,16 @@
+---
+title: "Tests and Coverage"
+date: "`r format(Sys.time(), '%d %B, %Y %H:%M:%S')`"
+---
+
+This output is created by [covrpage](https://github.com/yonicd/covrpage).
+
+```{r,include=FALSE}
+library(covr     , warn.conflicts = FALSE , quietly = TRUE)
+library(testthat , warn.conflicts = FALSE , quietly = TRUE)
+library(knitr    , warn.conflicts = FALSE , quietly = TRUE)
+```
+
+```{r}
+testthat::test_dir('../tests/testthat/')
+```

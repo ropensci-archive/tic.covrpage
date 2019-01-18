@@ -1,3 +1,5 @@
+[![Covrpage Summary](https://img.shields.io/badge/covrpage-Last_Build_2019_01_18-yellowgreen.svg)](http://tinyurl.com/ybwygww5)
+
 # tic.covrpage
 
 A minimal example package that creates testing reports with [covrpage](https://metrumresearchgroup.github.io/covrpage/) and deployed by _tic_.
