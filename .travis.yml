@@ -17,16 +17,17 @@ deploy:
     all_branches: true
 after_deploy: R -q -e 'tic::after_deploy()'
 after_script: R -q -e 'tic::after_script()'
+
 language: r
 sudo: false
 dist: trusty
 cache: packages
 latex: false
+r_github_packages:
+- metrumresearchgroup/covrpage
 env:
   global:
   - _R_CHECK_FORCE_SUGGESTS_=false
   - MAKEFLAGS="-j 2"
   - secure: C7jmtNfautJfihXUufamDQ3BewZxiBtSbd7aWbVjSIetopsXF8j4tddi5KHahJfWEYsU+xmVrjl9tYg5vpeiFTKP82DRiobwR/0bYfOtQL4VsBkEh9tFHr66FMCkrZkIl6zhRij0UX8JkJAPnRWoKIPRJgSG1NCTh5dLtp6boXP+hY5h4UUNIUBVgEKRWMheq1fzZwRm58y4XaxiNAJepEO+iMcBP/HfccGs5q4iLHw7ImA2UQ2xjHz6jF20on4kyQBiXzBkznMVccbdol4YcpjYUs0eC1GDv0ZrhLEt2G56kZeW3XAQd6/6JqoDCCthLgkwKod+x9o7Fvi8EVUO3G46UjbLxBm/uaZEOqOt13U8hi89jfYW+UJJrS8AbnjuPFNrx6aovKx2HBNPG2JtCwvcIe8kr/FKcM8qoKI4SDXFX8BibxnZHq0pxraZyX+t/A7eN0vN3iKMwwwsX7i98sGHoMHlydP1+TKmfxVcjxuCQePu6YPcShBMnd1QVFWlima1EaZ25z77w3f5b5POAbQbwejW8VyxOeSF+GPWAlMOmulkrfrE3AZ6Kr65QRrc03r+P3UBCmqL4ZqfEiobmSuiSakn60N3MW9YGIseaKjDR1/bjrhFjsIySlEKx8dX+e43OYaJyj28/W1mRatE4/4xHDP0E9Cn9UfV89+fL40=
 services: 
-r_github_packages:
-- metrumresearchgroup/covrpage
