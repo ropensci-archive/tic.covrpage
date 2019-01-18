@@ -10,7 +10,8 @@ tic::add_package_checks()
     tic::add_step(tic::step_setup_ssh())
 
   tic::get_stage("deploy") %>%
-    tic::add_code_step(covr::codecov()) 
+    tic::add_code_step(covr::codecov())%>%
+    tic::add_code_step(print(Sys.getenv('TRAVIS_COMMIT_MESSAGE')))
   
   if(grepl('\\[covrpage\\]',Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
     tic::get_stage("deploy") %>%
