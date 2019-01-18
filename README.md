@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/metrumresearchgroup/tic.covrpage.svg?branch=master)](https://travis-ci.org/metrumresearchgroup/tic.covrpage)
+[![Coverage Status](https://img.shields.io/codecov/c/github/metrumresearchgroup/tic.covrpage/master.svg)](https://codecov.io/github/metrumresearchgroup/tic.covrpage?branch=master)
 [![Covrpage Summary](https://img.shields.io/badge/covrpage-Last_Build_2019_01_18-yellowgreen.svg)](http://tinyurl.com/ybwygww5)
 
 # tic.covrpage
