@@ -1,4 +1,4 @@
 library(testthat)
-library(covrskip)
+library(tic.covrpage)
 
-test_check("covrskip")
+test_check("tic.covrpage")
