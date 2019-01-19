@@ -16,10 +16,9 @@ tic::add_package_checks()
   
   if(!grepl(covrpage_flag,Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
     tic::get_stage("deploy") %>%
-      #tic::add_code_step(remotes::install_github("metrumresearchgroup/covrpage")) %>%
       tic::add_code_step(devtools::install())%>%
       tic::add_code_step(covrpage::covrpage_ci())%>%
-      #tic::add_step(tic::step_push_deploy(commit_paths = "tests/README.md"))
+      tic::add_step(tic::step_push_deploy(commit_paths = "tests/README.md"))
     
     if (tic::ci()$get_branch() == "master") {
       tic::get_stage("deploy") %>%
