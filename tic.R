@@ -6,14 +6,16 @@ tic::add_package_checks()
   # - `ci()$is_tag()`: Only for tags, not for branches
   # - `Sys.getenv("BUILD_PKGDOWN") != ""`: If the env var "BUILD_PKGDOWN" is set
   # - `Sys.getenv("TRAVIS_EVENT_TYPE") == "cron"`: Only for Travis cron jobs
-  #tic::get_stage("before_deploy") %>%
-    #tic::add_step(tic::step_setup_ssh())
+  tic::get_stage("before_deploy") %>%
+    tic::add_step(tic::step_setup_ssh())
 
   tic::get_stage("deploy") %>%
     tic::add_code_step(covr::codecov())
   
-  if(!grepl('\\[skip covrpage\\]',Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
+  if(!grepl('\\[\\s*(skip\\s+covrpage|covrpage\\s+skip)\\s*\\]',
+            Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
     tic::get_stage("deploy") %>%
+      #tic::add_code_step(remotes::install_github("metrumresearchgroup/covrpage")) %>%
       tic::add_code_step(covrpage::covrpage_ci())%>%
       tic::add_step(tic::step_push_deploy(commit_paths = "tests/README.md"))
     
