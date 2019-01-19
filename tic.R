@@ -12,10 +12,12 @@ tic::add_package_checks()
   tic::get_stage("deploy") %>%
     tic::add_code_step(covr::codecov())
   
-  if(!grepl('\\[\\s*(skip\\s+covrpage|covrpage\\s+skip)\\s*\\]',
-            Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
+  covrpage_flag <- '\\[\\s*(skip\\s+covrpage|covrpage\\s+skip)\\s*\\]'
+  
+  if(!grepl(covrpage_flag,Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
     tic::get_stage("deploy") %>%
       #tic::add_code_step(remotes::install_github("metrumresearchgroup/covrpage")) %>%
+      tic::add_code_step(devtools::install())%>%
       tic::add_code_step(covrpage::covrpage_ci())%>%
       tic::add_step(tic::step_push_deploy(commit_paths = "tests/README.md"))
     
