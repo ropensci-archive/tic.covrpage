@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-26 January, 2019 04:07:05
+26 January, 2019 04:25:23
 
 This output is created by
 [covrpage](https://github.com/metrumresearchgroup/covrpage).
@@ -25,7 +25,7 @@ package.
 
 | file                                 | n |  time | error | failed | skipped | warning | icon |
 | :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.062 |     0 |      0 |       0 |       1 | ⚠️   |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.016 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -34,9 +34,9 @@ package.
 
 | file                                     | context   | test               | status  | n |  time | icon |
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
-| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.011 |      |
-| [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.002 |      |
-| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.049 | ⚠️   |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.012 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.003 | ⚠️   |
 
 | Failed | Warning | Skipped |
 | :----- | :------ | :------ |
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                            |
 | :------- | :---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Version  | R version 3.5.2 (2017-01-27)  |                                                                                                                                                                                                                            |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/yonicd/tic.covrpage/jobs/484645399" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/yonicd/tic.covrpage/jobs/484648287" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 14.04.5 LTS            |                                                                                                                                                                                                                            |
 | Language | en\_US                        |                                                                                                                                                                                                                            |
 | Timezone | UTC                           |                                                                                                                                                                                                                            |
