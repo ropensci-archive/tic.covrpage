@@ -10,11 +10,10 @@ get_stage("before_deploy") %>%
   add_step(step_setup_ssh())
 
 get_stage("deploy") %>%
-  add_code_step(covr::codecov())
+  add_code_step(covr::codecov())%>%
+  add_code_step(print(Sys.getenv('TRAVIS_COMMIT_MESSAGE')))
 
 covrpage_flag <- '\\[\\s*(skip\\s+covrpage|covrpage\\s+skip)\\s*\\]'
-
-print(Sys.getenv('TRAVIS_COMMIT_MESSAGE'))
 
 if(!grepl(covrpage_flag,Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
   get_stage("deploy") %>%
