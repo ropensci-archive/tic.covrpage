@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-18 January, 2019 15:13:11
+26 January, 2019 03:50:03
 
 This output is created by
 [covrpage](https://github.com/metrumresearchgroup/covrpage).
@@ -25,7 +25,7 @@ package.
 
 | file                                 | n |  time | error | failed | skipped | warning | icon |
 | :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.007 |     0 |      0 |       0 |       1 | ⚠️   |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.017 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -34,7 +34,7 @@ package.
 
 | file                                     | context   | test               | status  | n |  time | icon |
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
-| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.002 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.012 |      |
 | [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.002 |      |
 | [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.003 | ⚠️   |
 
@@ -46,21 +46,22 @@ package.
 
 <details>
 
-<summary> Session Info </summary>
+<summary> Session Info
+</summary>
 
-| Field    | Value                               |
-| :------- | :---------------------------------- |
-| Version  | R version 3.5.1 (2018-07-02)        |
-| Platform | x86\_64-apple-darwin15.6.0 (64-bit) |
-| Running  | macOS 10.14.2                       |
-| Language | en\_US                              |
-| Timezone | America/Chicago                     |
+| Field    | Value                         |                                                                                                                                                                                                                            |
+| :------- | :---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Version  | R version 3.5.2 (2017-01-27)  |                                                                                                                                                                                                                            |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/yonicd/tic.covrpage/jobs/484642200" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Running  | Ubuntu 14.04.5 LTS            |                                                                                                                                                                                                                            |
+| Language | en\_US                        |                                                                                                                                                                                                                            |
+| Timezone | UTC                           |                                                                                                                                                                                                                            |
 
-| Package  | Version    |
-| :------- | :--------- |
-| testthat | 2.0.0.9000 |
-| covr     | 3.2.0      |
-| covrpage | 0.0.69     |
+| Package  | Version |
+| :------- | :------ |
+| testthat | 2.0.1   |
+| covr     | 3.2.1   |
+| covrpage | 0.0.69  |
 
 </details>
 
