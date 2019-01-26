@@ -14,6 +14,8 @@ get_stage("deploy") %>%
 
 covrpage_flag <- '\\[\\s*(skip\\s+covrpage|covrpage\\s+skip)\\s*\\]'
 
+print(Sys.getenv('TRAVIS_COMMIT_MESSAGE'))
+
 if(!grepl(covrpage_flag,Sys.getenv('TRAVIS_COMMIT_MESSAGE'))){
   get_stage("deploy") %>%
     add_code_step(devtools::install())%>%
