@@ -4,18 +4,18 @@
 #' @param y PARAM_DESCRIPTION
 #' @return OUTPUT_DESCRIPTION
 #' @details DETAILS
-#' @examples 
+#' @examples
 #' \dontrun{
 #' if(interactive()){
 #'  #EXAMPLE1
 #'  }
 #' }
 #' @rdname fun
-#' @export 
-fun <- function(x,y){
-  if((x%%2)==0){
-    x/y
-  }else{
-    x+y
+#' @export
+fun <- function(x, y) {
+  if ((x %% 2) == 0) {
+    x / y
+  } else {
+    x + y
   }
 }
