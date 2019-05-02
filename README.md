@@ -1,5 +1,5 @@
 [![Travis-CI Build Status](https://travis-ci.org/ropenscilabs/tic.covrpage.svg?branch=master)](https://travis-ci.org/ropenscilabs/tic.covrpage)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ropenscilabs/tic.covrpage?branch=master&svg=true)](https://ci.appveyor.com/project/ropenscilabs/tic-covrpage)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/ropenscilabs/tic.covrpage?branch=master&svg=true)](https://ci.appveyor.com/project/ropensci/tic.covrpage)
 [![Coverage Status](https://codecov.io/gh/ropenscilabs/tic.covrpage/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/tic.covrpage?branch=master)
 [![Covrpage Summary](https://covrpage.herokuapp.com/badge/ropenscilabs/tic.covrpage)](https://covrpage.herokuapp.com/url/ropenscilabs/tic.covrpage)
 
