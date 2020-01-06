@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-26 February, 2019 14:20:42
+06 January, 2020 14:24:45
 
 This output is created by
 [covrpage](https://github.com/metrumresearchgroup/covrpage).
@@ -23,9 +23,9 @@ Unit Test summary is created using the
 [testthat](https://github.com/r-lib/testthat)
 package.
 
-| file                                 | n | time | error | failed | skipped | warning | icon |
-| :----------------------------------- | -: | ---: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.08 |     0 |      0 |       0 |       1 | ⚠️   |
+| file                                 | n |  time | error | failed | skipped | warning | icon |
+| :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.021 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -34,9 +34,9 @@ package.
 
 | file                                     | context   | test               | status  | n |  time | icon |
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
-| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.014 |      |
-| [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.002 |      |
-| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.064 | ⚠️   |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.018 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.002 | ⚠️   |
 
 | Failed | Warning | Skipped |
 | :----- | :------ | :------ |
@@ -51,16 +51,16 @@ package.
 
 | Field    | Value                         |                                                                                                                                                                                                                                  |
 | :------- | :---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Version  | R version 3.5.2 (2017-01-27)  |                                                                                                                                                                                                                                  |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/498748604" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
-| Running  | Ubuntu 14.04.5 LTS            |                                                                                                                                                                                                                                  |
+| Version  | R version 3.6.1 (2017-01-27)  |                                                                                                                                                                                                                                  |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/633304397" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Running  | Ubuntu 16.04.6 LTS            |                                                                                                                                                                                                                                  |
 | Language | en\_US                        |                                                                                                                                                                                                                                  |
 | Timezone | UTC                           |                                                                                                                                                                                                                                  |
 
 | Package  | Version |
 | :------- | :------ |
-| testthat | 2.0.1   |
-| covr     | 3.2.1   |
+| testthat | 2.3.1   |
+| covr     | 3.4.0   |
 | covrpage | 0.0.70  |
 
 </details>
