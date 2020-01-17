@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 [![Travis build status](https://img.shields.io/travis/ropenscilabs/tic.covrpage/master?logo=travis&style=flat-square&label=Linux)](https://travis-ci.org/ropenscilabs/tic.covrpage)
-[![AppVeyor build status](https://img.shields.io/appveyor/ci/ropensci/tic-covrpage?label=Windows&logo=appveyor&style=flat-square)](https://ci.appveyor.com/project/ropensci/tic-covrpage)
+[![Build status](https://ci.appveyor.com/api/projects/status/ugk6yjouleggw5ic?svg=true)](https://ci.appveyor.com/project/ropenscilabs/tic-covrpage)
 [![Coverage Status](https://codecov.io/gh/ropenscilabs/tic.covrpage/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/tic.covrpage?branch=master)
 [![Covrpage Summary](https://covrpage.herokuapp.com/badge/ropenscilabs/tic.covrpage)](https://covrpage.herokuapp.com/url/ropenscilabs/tic.covrpage)
 <!-- badges: end -->
