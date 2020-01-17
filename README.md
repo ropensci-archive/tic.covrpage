@@ -4,7 +4,7 @@
 [![Travis build status](https://img.shields.io/travis/ropenscilabs/tic.covrpage/master?logo=travis&style=flat-square&label=Linux)](https://travis-ci.org/ropenscilabs/tic.covrpage)
 [![Build status](https://ci.appveyor.com/api/projects/status/ugk6yjouleggw5ic?svg=true)](https://ci.appveyor.com/project/ropenscilabs/tic-covrpage)
 [![Coverage Status](https://codecov.io/gh/ropenscilabs/tic.covrpage/branch/master/graph/badge.svg)](https://codecov.io/github/ropenscilabs/tic.covrpage?branch=master)
-[![Covrpage Summary](https://covrpage.herokuapp.com/badge/ropenscilabs/tic.covrpage)](https://covrpage.herokuapp.com/url/ropenscilabs/tic.covrpage)
+[![Covrpage Summary](https://img.shields.io/badge/covrpage-Last_Build_2020_01_06-yellowgreen.svg)](http://tinyurl.com/yjt8etzo)
 <!-- badges: end -->
 
 A minimal example package that creates testing reports with [covrpage](https://metrumresearchgroup.github.io/covrpage/) and deployed by _tic_.
