@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-27 January, 2020 14:08:13
+03 February, 2020 14:08:36
 
 This output is created by
 [covrpage](https://github.com/metrumresearchgroup/covrpage).
@@ -25,7 +25,7 @@ package.
 
 | file                                 | n |  time | error | failed | skipped | warning | icon |
 | :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.022 |     0 |      0 |       0 |       1 | ⚠️   |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.021 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -34,7 +34,7 @@ package.
 
 | file                                     | context   | test               | status  | n |  time | icon |
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
-| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.019 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.018 |      |
 | [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
 | [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.002 | ⚠️   |
 
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                                  |
 | :------- | :---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Version  | R version 3.6.2 (2017-01-27)  |                                                                                                                                                                                                                                  |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/642392127" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/645469015" target="_blank"><span title="Built on Travis">![](https://github.com/metrumresearchgroup/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 16.04.6 LTS            |                                                                                                                                                                                                                                  |
 | Language | en\_US                        |                                                                                                                                                                                                                                  |
 | Timezone | UTC                           |                                                                                                                                                                                                                                  |
