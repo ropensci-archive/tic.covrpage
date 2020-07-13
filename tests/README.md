@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-13 July, 2020 14:19:56
+13 July, 2020 14:29:34
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                     |
 | :------- | :---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Version  | R version 4.0.0 (2020-04-24)  |                                                                                                                                                                                                                     |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/707646006" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/707653066" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 16.04.6 LTS            |                                                                                                                                                                                                                     |
 | Language | en\_US                        |                                                                                                                                                                                                                     |
 | Timezone | UTC                           |                                                                                                                                                                                                                     |
