@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-14 September, 2020 14:27:41
+21 September, 2020 14:28:16
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -25,7 +25,7 @@ package.
 
 | file                                 | n |  time | error | failed | skipped | warning | icon |
 | :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.017 |     0 |      0 |       0 |       1 | ⚠️   |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.016 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -36,7 +36,7 @@ package.
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
 | [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.013 |      |
 | [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
-| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.003 | ⚠️   |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.002 | ⚠️   |
 
 | Failed | Warning | Skipped |
 | :----- | :------ | :------ |
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                     |
 | :------- | :---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Version  | R version 4.0.2 (2020-06-22)  |                                                                                                                                                                                                                     |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/727047217" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/729002380" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 18.04.5 LTS            |                                                                                                                                                                                                                     |
 | Language | en\_US                        |                                                                                                                                                                                                                     |
 | Timezone | UTC                           |                                                                                                                                                                                                                     |
@@ -60,7 +60,7 @@ package.
 | Package  | Version    |
 | :------- | :--------- |
 | testthat | 2.3.2      |
-| covr     | 3.5.0.9000 |
+| covr     | 3.5.1.9000 |
 | covrpage | 0.0.71     |
 
 </details>
