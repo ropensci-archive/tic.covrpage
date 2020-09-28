@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-21 September, 2020 14:28:16
+28 September, 2020 14:28:26
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                     |
 | :------- | :---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Version  | R version 4.0.2 (2020-06-22)  |                                                                                                                                                                                                                     |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/729002380" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/730969963" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 18.04.5 LTS            |                                                                                                                                                                                                                     |
 | Language | en\_US                        |                                                                                                                                                                                                                     |
 | Timezone | UTC                           |                                                                                                                                                                                                                     |
