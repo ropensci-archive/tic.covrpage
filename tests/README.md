@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-19 October, 2020 14:30:01
+26 October, 2020 15:02:59
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -25,7 +25,7 @@ package.
 
 | file                                 | n |  time | error | failed | skipped | warning | icon |
 | :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.024 |     0 |      0 |       0 |       1 | ⚠️   |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.015 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -36,7 +36,7 @@ package.
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
 | [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.012 |      |
 | [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
-| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.011 | ⚠️   |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.002 | ⚠️   |
 
 | Failed | Warning | Skipped |
 | :----- | :------ | :------ |
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                     |
 | :------- | :---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Version  | R version 4.0.2 (2020-06-22)  |                                                                                                                                                                                                                     |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/737085915" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/738983737" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 18.04.5 LTS            |                                                                                                                                                                                                                     |
 | Language | en\_US                        |                                                                                                                                                                                                                     |
 | Timezone | UTC                           |                                                                                                                                                                                                                     |
