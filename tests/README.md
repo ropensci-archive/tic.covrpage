@@ -1,6 +1,6 @@
 Tests and Coverage
 ================
-23 November, 2020 15:10:38
+30 November, 2020 15:07:51
 
 This output is created by
 [covrpage](https://github.com/yonicd/covrpage).
@@ -23,9 +23,9 @@ Unit Test summary is created using the
 [testthat](https://github.com/r-lib/testthat)
 package.
 
-| file                                 | n | time | error | failed | skipped | warning | icon |
-| :----------------------------------- | -: | ---: | ----: | -----: | ------: | ------: | :--- |
-| [test\_func.R](testthat/test_func.R) | 4 | 0.02 |     0 |      0 |       0 |       1 | ⚠️   |
+| file                                 | n |  time | error | failed | skipped | warning | icon |
+| :----------------------------------- | -: | ----: | ----: | -----: | ------: | ------: | :--- |
+| [test\_func.R](testthat/test_func.R) | 4 | 0.017 |     0 |      0 |       0 |       1 | ⚠️   |
 
 <details open>
 
@@ -34,9 +34,9 @@ package.
 
 | file                                     | context   | test               | status  | n |  time | icon |
 | :--------------------------------------- | :-------- | :----------------- | :------ | -: | ----: | :--- |
-| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.003 |      |
+| [test\_func.R](testthat/test_func.R#)    | test      | odd: check sum     | PASS    | 1 | 0.002 |      |
 | [test\_func.R](testthat/test_func.R#)    | test      | even: check divide | PASS    | 1 | 0.001 |      |
-| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.016 | ⚠️   |
+| [test\_func.R](testthat/test_func.R#L22) | test warn | even: check divide | WARNING | 2 | 0.014 | ⚠️   |
 
 | Failed | Warning | Skipped |
 | :----- | :------ | :------ |
@@ -52,7 +52,7 @@ package.
 | Field    | Value                         |                                                                                                                                                                                                                     |
 | :------- | :---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Version  | R version 4.0.2 (2020-06-22)  |                                                                                                                                                                                                                     |
-| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/745421880" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
+| Platform | x86\_64-pc-linux-gnu (64-bit) | <a href="https://travis-ci.org/ropenscilabs/tic.covrpage/jobs/746755237" target="_blank"><span title="Built on Travis">![](https://github.com/yonicd/covrpage/blob/master/inst/logo/travis.png?raw=true)</span></a> |
 | Running  | Ubuntu 18.04.5 LTS            |                                                                                                                                                                                                                     |
 | Language | en\_US                        |                                                                                                                                                                                                                     |
 | Timezone | UTC                           |                                                                                                                                                                                                                     |
